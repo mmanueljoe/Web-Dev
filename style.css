@@ -21,9 +21,13 @@ h1,h2,h3{
 }
 
 #navbar{
-    background: rgb(90, 78, 9); 
+    background: rgba(57, 217, 49, 0.039); 
     overflow: auto;
 }
+#navbar:hover{
+    background: rgba(255, 0, 208, 0.066);
+}
+
 #navbar a{
 color:black;
 }
@@ -125,3 +129,34 @@ background: url(../images/hotel.jpg) no-repeat center center/cover;
 /*.bg-dark{
     background: lightgreen;
 }*/
+
+.box{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+}
+
+/*.bg-primary {
+    background: red;
+    color:yellow;
+}*/
+
+.bg-second{
+    background: red;
+    color:yellow;
+}
+
+/*.bg-tetiary{
+    background: red;
+    color:yellow;
+}*/
+
+#main-footer{
+    font: 17px;
+    background: ;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 120px;
+
+}
