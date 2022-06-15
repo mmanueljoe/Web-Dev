@@ -55,6 +55,9 @@ font-size: large;
     text-align: center ;
     font-size: 1.50em;
 }
+#navbar ul li a:hover,#navbar ul li a.active{
+    color: rgba(255, 0, 0, 0.502);
+}
 
     /* showcase session */
 #showcase{
@@ -75,7 +78,7 @@ background: url(../images/hotel.jpg) no-repeat center center/cover;
 
 }
 .text-primary{
-    color: rgb(90, 78, 9);
+    color: rgba(20, 20, 20, 0.986);
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -154,9 +157,61 @@ background: url(../images/hotel.jpg) no-repeat center center/cover;
 
 #main-footer{
     font: 17px;
-    background: ;
     text-align: center;
     padding: 20px;
     padding-bottom: 120px;
 
+}
+
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+
+}
+
+#about-info .info-right img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+.py-3{
+    padding: 30px 0px;
+}
+
+/* Testimonials or Feedbacks DSection */
+#feebacks{
+    height: 100%;
+    padding-top: 100px;
+    background: url('../images/hotelrep1.jpg') no-repeat center center/cover;
+}
+
+#feebacks h2{
+    text-align: center;
+    color: blanchedalmond;
+    padding-bottom: 40px;
+
+}
+
+#feebacks .feedback{
+    padding: 20px;
+    border-radius: 10px;
+    opacity:0.9;
+    margin-bottom: 40px;
+
+}
+
+#feebacks .feedback img{
+    width: 100px;
+    float: left;
+    border-radius: 50%;
+    border-right: 20px;
 }
